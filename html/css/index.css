@@ -14,7 +14,7 @@ p{
 }
  
 .butns button{
-    padding: 1% 2% 1% 9%;
+    padding: 1% 3% 1% 9%;
     background-color: olivedrab;
 }
 
@@ -25,9 +25,31 @@ p{
 
 .texts{
     width: 43.5%;
-    padding-bottom: 2%;
+    /*  padding-bottom: 2%; */
     margin-bottom: 1%;
     background-color: lightgreen;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    /* overflow-y: auto; */
+}
+
+#one{
+    height: 150px;
+}
+
+.drop #one{
+    height: 0px;
+}
+
+
+.drop #two{
+    height: 0px;
+}
+
+.drop .texts{
+    height: 150px;
+    transition: 0.5s ease-in-out;
     
 }
 
@@ -35,6 +57,16 @@ p{
     display: none;
 }
 
-#two, #three{
-    display: none;
+
+.button::after{
+    content: '\02795';
+    font-size: 15px;
+   
+    margin-left: 50px;
+    
 }
+
+.drop .button::after{
+    content: '\2796';
+}
+
