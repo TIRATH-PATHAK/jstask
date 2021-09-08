@@ -1,0 +1,40 @@
+
+/* Global css */
+
+.wrapper{
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+ 
+.butns button{
+    padding: 1% 2% 1% 9%;
+    background-color: olivedrab;
+}
+
+.iconsadd{
+    padding-left: 66px;
+}
+
+
+.texts{
+    width: 43.5%;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+    background-color: lightgreen;
+    
+}
+
+.iconssub{
+    display: none;
+}
+
+#two, #three{
+    display: none;
+}
